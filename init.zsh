@@ -8,7 +8,7 @@
 ######################################################################
 p6df::modules::oci::deps() { 
   ModuleDeps=(
-    p6m7g8/p6df-oracle
+    p6m7g8-dotfiles/p6df-oracle
   )
 }
 
