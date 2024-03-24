@@ -23,7 +23,7 @@ p6df::modules::oci::deps() {
 p6df::modules::oci::external::brew() {
 
   # https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/clienvironmentvariables.htm
-  brew install oci-cli
+  p6df::modules::homebrew::cli::brew::install oci-cli
 
   p6_return_void
 }
