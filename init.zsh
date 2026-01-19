@@ -17,7 +17,6 @@ p6df::modules::oci::deps() {
 #
 # Function: p6df::modules::oci::external::brew()
 #
-#  Environment:	 API
 #>
 ######################################################################
 p6df::modules::oci::external::brew() {
