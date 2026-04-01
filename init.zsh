@@ -40,5 +40,5 @@ p6df::modules::oci::external::brews() {
 ######################################################################
 p6df::modules::oci::profile::mod() {
 
-  p6_return_words 'oci' '$OCI_CONFIG_FILE'
+  p6_return_words 'oci' "$"
 }
