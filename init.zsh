@@ -26,3 +26,19 @@ p6df::modules::oci::external::brews() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words oci $OCI_CONFIG_FILE = p6df::modules::oci::profile::mod()
+#
+#  Returns:
+#	words - oci $OCI_CONFIG_FILE
+#
+#  Environment:	 OCI_CONFIG_FILE
+#>
+######################################################################
+p6df::modules::oci::profile::mod() {
+
+  p6_return_words 'oci' '$OCI_CONFIG_FILE'
+}
