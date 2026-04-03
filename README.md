@@ -37,6 +37,7 @@ TODO: Add a short summary of this module.
 
 - `p6df::modules::oci::deps()`
 - `p6df::modules::oci::external::brew()`
+- `words oci $OCI_CONFIG_FILE = p6df::modules::oci::profile::mod()`
 
 ## Hierarchy
 
