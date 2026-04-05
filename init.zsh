@@ -30,10 +30,10 @@ p6df::modules::oci::external::brews() {
 ######################################################################
 #<
 #
-# Function: words oci $OCI_CONFIG_FILE = p6df::modules::oci::profile::mod()
+# Function: words oci = p6df::modules::oci::profile::mod()
 #
 #  Returns:
-#	words - oci $OCI_CONFIG_FILE
+#	words - oci
 #
 #  Environment:	 OCI_CONFIG_FILE
 #>
